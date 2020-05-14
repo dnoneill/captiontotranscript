@@ -12,9 +12,7 @@ for f in files:
                 caption = webvtt.from_srt(f)
             else:
                 caption = webvtt.read(f)
-            txtcontent = []
-            for cap in caption:
-                txtcontent.append(cap.text)
+            txtcontent = [cap.text for cap in caption]
             outputtxt = os.path.basename(f).replace(extension, '.txt')
             with open(outputtxt, 'w') as outputfile:
                 outputfile.write('\n'.join(txtcontent))
