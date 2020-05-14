@@ -11,16 +11,16 @@ This script creates a txt transcript file for VTT or SRT transcripts. It will cr
     `git clone https://github.com/dnoneill/captiontotranscript.git`
 4. Go to captiontotranscript folder
 
-  `cd captiontotranscript` 
+    `cd captiontotranscript` 
 5. Create a virtual environment
 
-  `python3 -m venv /path/to/new/virtual/environment` 
+    `python3 -m venv /path/to/new/virtual/environment` 
 6. Enable virtual environment
 
-  `source /path/to/new/virtual/environment/bin/activate` 
+    `source /path/to/new/virtual/environment/bin/activate` 
 7. Install libraries
 
-  `pip3 install -r requirements.txt`
+    `pip3 install -r requirements.txt`
 8. Run script
 
   `python3 captiontotranscript.py` 
