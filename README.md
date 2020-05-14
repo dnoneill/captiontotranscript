@@ -24,6 +24,11 @@ This script creates a txt transcript file for VTT or SRT transcripts. It will cr
 8. Run script
 
   `python3 captiontotranscript.py` 
+
+9. Enter the filepath where the captions are located. This script will find all vtt and srt files in a folder, even if they are nested so only worry about giving the path of the topmost folder.
+
+10. Transcript files will be located in the captiontotranscript folder.
+
 # Troubleshooting for Mac
 ## Problems running in terminal
 1. Go to the Terminal > Preferences
