@@ -12,7 +12,16 @@ This script creates a txt transcript file for VTT or SRT transcripts. It will cr
   `cd captiontotranscript`
 5. Create a virtual environment
   `python3 -m venv /path/to/new/virtual/environment`
-6. Install libraries
+6. Enable virtual environment
+  `source /path/to/new/virtual/environment/bin/activate`
+7. Install libraries
   `pip3 install -r requirements.txt`
-7. Run script
+8. Run script
   `python3 captiontotranscript.py`
+  
+# Troubleshooting for Mac
+## Problems running in terminal
+1. Go to the Terminal > Preferences
+2. In the line Shell opens with: if the line says /bin/tsch change it to /bin/bash
+
+  
