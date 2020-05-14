@@ -15,8 +15,8 @@ for f in files:
             txtcontent = []
             for cap in caption:
                 txtcontent.append(cap.text)
-                outputtxt = os.path.basename(f).replace(extension, '.txt')
-                with open(outputtxt, 'w') as outputfile:
-                    outputfile.write('\n'.join(txtcontent))
+            outputtxt = os.path.basename(f).replace(extension, '.txt')
+            with open(outputtxt, 'w') as outputfile:
+                outputfile.write('\n'.join(txtcontent))
         except Exception as e:
             print("{} for {}".format(e, f))
