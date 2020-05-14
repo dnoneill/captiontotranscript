@@ -7,7 +7,7 @@ This script creates a txt transcript file for VTT or SRT transcripts. It will cr
 1. Have python installed
 2. Open a command line terminal
 3. Download this script
-  `git clone https://github.com/dnoneill/captiontotranscript.git`
+    `git clone https://github.com/dnoneill/captiontotranscript.git`
   
 4. Go to captiontotranscript folder
 
